@@ -9,9 +9,6 @@ search.on('click', function(e) {
     userSearchResults(userSearch);
 });
 
-
-
-
 function userSearchResults(userSearch) {
 
 var settings = {

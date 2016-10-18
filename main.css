@@ -9,8 +9,42 @@ body {
   body img {
     width: 100%; }
 
-h1 {
-  color: #F56A0B; }
+header {
+  background: #FFFFFF;
+  border-bottom: 0.1em solid black; }
+  header h1 {
+    color: #F56A0B;
+    padding: 0.5em;
+    display: inline-block;
+    vertical-align: middle; }
+  header form {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1em; }
+    header form .input {
+      width: 20em; }
+    header form .search {
+      background: #34A8C4;
+      color: #FFFFFF; }
+  header .icon-links {
+    text-decoration: none;
+    float: right;
+    display: inline-block;
+    margin-top: 1.25em;
+    font-size: 1.25em;
+    padding: 1em; }
+    header .icon-links a {
+      color: #34A8C4; }
+    header .icon-links i {
+      color: #9A9A9A; }
+  header .category-links {
+    border-top: 0.1em solid black;
+    padding: 1em; }
+    header .category-links a {
+      text-decoration: none;
+      color: #9A9A9A;
+      padding-right: 0.5em;
+      font-size: 0.85em; }
 
 main {
   max-width: 1200px;
@@ -30,10 +64,6 @@ main {
     margin: 1em; }
     main div:last-child {
       margin-right: 0; }
-    main div:nth-child(3n) {
-      margin-right: 0; }
-    main div:nth-child(3n+1) {
-      clear: left; }
     main div h2 {
       font-size: .75em;
       white-space: nowrap;

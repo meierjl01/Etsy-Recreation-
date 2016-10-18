@@ -1,3 +1,53 @@
-h1 {
-  color: #F56A0B;
+header {
+    background: $color-primary;
+    border-bottom: 0.1em solid black;
+
+    h1 {
+        color: #F56A0B;
+        padding: 0.5em;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    form {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 1em;
+
+        .input {
+            width: 20em;
+        }
+
+        .search {
+            background: $color-quinary;
+            color: $color-primary;
+        }
+    }
+
+    .icon-links {
+        text-decoration: none;
+        float: right;
+        display: inline-block;
+        margin-top: 1.25em;
+        font-size: 1.25em;
+        padding: 1em;
+        a {
+          color: $color-quinary;
+        }
+        i {
+          color: $color-quaternary;
+        }
+    }
+
+    .category-links {
+        border-top: 0.1em solid black;
+        padding: 1em;
+
+        a {
+            text-decoration: none;
+            color: $color-quaternary;
+            padding-right: 0.5em;
+            font-size: 0.85em;
+        }
+    }
 }

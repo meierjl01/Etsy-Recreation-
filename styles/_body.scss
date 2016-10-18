@@ -2,7 +2,6 @@ main {
   @include outer-container;
   div {
     @include span-columns(3 of 12);
-    @include omega(3n);
     background: $color-primary;
     border: .5em solid $color-primary;
     margin: 1em;
