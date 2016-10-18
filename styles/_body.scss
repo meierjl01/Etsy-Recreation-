@@ -1,0 +1,28 @@
+main {
+  @include outer-container;
+  div {
+    @include span-columns(3 of 12);
+    @include omega(3n);
+    background: $color-primary;
+    border: .5em solid $color-primary;
+    margin: 1em;
+    h2 {
+      font-size: .75em;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    h5 {
+      font-size: .25em;
+      display: inline-block;
+      float: right;
+      color: $color-secondary;
+    }
+    h6 {
+      font-size: .25em;
+      display: inline-block;
+      float: left;
+      color: $color-quaternary;
+    }
+  }
+}
